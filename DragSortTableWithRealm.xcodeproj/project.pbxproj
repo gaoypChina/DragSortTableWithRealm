@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2CCE0D92149FAEE0041F994 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0D82149FAEE0041F994 /* AppDelegate.m */; };
+		C2CCE0DC2149FAEE0041F994 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0DB2149FAEE0041F994 /* ViewController.m */; };
+		C2CCE0E12149FAF00041F994 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE0E02149FAF00041F994 /* Assets.xcassets */; };
+		C2CCE0E42149FAF00041F994 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C2CCE0E22149FAF00041F994 /* LaunchScreen.storyboard */; };
+		C2CCE0E72149FAF00041F994 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0E62149FAF00041F994 /* main.m */; };
+		C2CCE0F42149FD280041F994 /* FMMoveTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0F12149FD280041F994 /* FMMoveTableView.m */; };
+		C2CCE0F52149FD280041F994 /* FMMoveTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0F32149FD280041F994 /* FMMoveTableViewCell.m */; };
+		C2CCE0F92149FEE00041F994 /* ModOrder.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0F82149FEE00041F994 /* ModOrder.m */; };
+		C2CCE0FC2149FF620041F994 /* DragSortCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2CCE0FB2149FF620041F994 /* DragSortCell.m */; };
+		D30C1AD9DD1295EEAC26C1A3 /* libPods-DragSortTableWithRealm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CAC8AC8E496518C78EAD4125 /* libPods-DragSortTableWithRealm.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		485F1B31F8D2D858C2632695 /* Pods-DragSortTableWithRealm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragSortTableWithRealm.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DragSortTableWithRealm/Pods-DragSortTableWithRealm.debug.xcconfig"; sourceTree = "<group>"; };
+		7F36A3427BAF4A98BB155A72 /* Pods-DragSortTableWithRealm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DragSortTableWithRealm.release.xcconfig"; path = "Pods/Target Support Files/Pods-DragSortTableWithRealm/Pods-DragSortTableWithRealm.release.xcconfig"; sourceTree = "<group>"; };
+		C2CCE0D42149FAEE0041F994 /* DragSortTableWithRealm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DragSortTableWithRealm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2CCE0D72149FAEE0041F994 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C2CCE0D82149FAEE0041F994 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C2CCE0DA2149FAEE0041F994 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C2CCE0DB2149FAEE0041F994 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C2CCE0E02149FAF00041F994 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C2CCE0E32149FAF00041F994 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C2CCE0E52149FAF00041F994 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2CCE0E62149FAF00041F994 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C2CCE0F02149FD280041F994 /* FMMoveTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoveTableView.h; sourceTree = "<group>"; };
+		C2CCE0F12149FD280041F994 /* FMMoveTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoveTableView.m; sourceTree = "<group>"; };
+		C2CCE0F22149FD280041F994 /* FMMoveTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMMoveTableViewCell.h; sourceTree = "<group>"; };
+		C2CCE0F32149FD280041F994 /* FMMoveTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMMoveTableViewCell.m; sourceTree = "<group>"; };
+		C2CCE0F72149FEE00041F994 /* ModOrder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModOrder.h; sourceTree = "<group>"; };
+		C2CCE0F82149FEE00041F994 /* ModOrder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModOrder.m; sourceTree = "<group>"; };
+		C2CCE0FA2149FF620041F994 /* DragSortCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DragSortCell.h; sourceTree = "<group>"; };
+		C2CCE0FB2149FF620041F994 /* DragSortCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DragSortCell.m; sourceTree = "<group>"; };
+		CAC8AC8E496518C78EAD4125 /* libPods-DragSortTableWithRealm.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DragSortTableWithRealm.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2CCE0D12149FAEE0041F994 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D30C1AD9DD1295EEAC26C1A3 /* libPods-DragSortTableWithRealm.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FFDF0DDD8875A3031D62B52 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CAC8AC8E496518C78EAD4125 /* libPods-DragSortTableWithRealm.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2CCE0CB2149FAEE0041F994 = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0D62149FAEE0041F994 /* DragSortTableWithRealm */,
+				C2CCE0D52149FAEE0041F994 /* Products */,
+				F64471EF2F0B46C141724FFE /* Pods */,
+				8FFDF0DDD8875A3031D62B52 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C2CCE0D52149FAEE0041F994 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0D42149FAEE0041F994 /* DragSortTableWithRealm.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2CCE0D62149FAEE0041F994 /* DragSortTableWithRealm */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0EE2149FD280041F994 /* Vendor */,
+				C2CCE0F62149FEE00041F994 /* Mod */,
+				C2CCE0D72149FAEE0041F994 /* AppDelegate.h */,
+				C2CCE0D82149FAEE0041F994 /* AppDelegate.m */,
+				C2CCE0DA2149FAEE0041F994 /* ViewController.h */,
+				C2CCE0DB2149FAEE0041F994 /* ViewController.m */,
+				C2CCE0FA2149FF620041F994 /* DragSortCell.h */,
+				C2CCE0FB2149FF620041F994 /* DragSortCell.m */,
+				C2CCE0E02149FAF00041F994 /* Assets.xcassets */,
+				C2CCE0E22149FAF00041F994 /* LaunchScreen.storyboard */,
+				C2CCE0E52149FAF00041F994 /* Info.plist */,
+				C2CCE0E62149FAF00041F994 /* main.m */,
+			);
+			path = DragSortTableWithRealm;
+			sourceTree = "<group>";
+		};
+		C2CCE0EE2149FD280041F994 /* Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0EF2149FD280041F994 /* FMFramework */,
+			);
+			path = Vendor;
+			sourceTree = "<group>";
+		};
+		C2CCE0EF2149FD280041F994 /* FMFramework */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0F02149FD280041F994 /* FMMoveTableView.h */,
+				C2CCE0F12149FD280041F994 /* FMMoveTableView.m */,
+				C2CCE0F22149FD280041F994 /* FMMoveTableViewCell.h */,
+				C2CCE0F32149FD280041F994 /* FMMoveTableViewCell.m */,
+			);
+			path = FMFramework;
+			sourceTree = "<group>";
+		};
+		C2CCE0F62149FEE00041F994 /* Mod */ = {
+			isa = PBXGroup;
+			children = (
+				C2CCE0F72149FEE00041F994 /* ModOrder.h */,
+				C2CCE0F82149FEE00041F994 /* ModOrder.m */,
+			);
+			path = Mod;
+			sourceTree = "<group>";
+		};
+		F64471EF2F0B46C141724FFE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				485F1B31F8D2D858C2632695 /* Pods-DragSortTableWithRealm.debug.xcconfig */,
+				7F36A3427BAF4A98BB155A72 /* Pods-DragSortTableWithRealm.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2CCE0D32149FAEE0041F994 /* DragSortTableWithRealm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2CCE0EA2149FAF00041F994 /* Build configuration list for PBXNativeTarget "DragSortTableWithRealm" */;
+			buildPhases = (
+				AD4E4052CA8135E126BE6A20 /* [CP] Check Pods Manifest.lock */,
+				C2CCE0D02149FAEE0041F994 /* Sources */,
+				C2CCE0D12149FAEE0041F994 /* Frameworks */,
+				C2CCE0D22149FAEE0041F994 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DragSortTableWithRealm;
+			productName = DragSortTableWithRealm;
+			productReference = C2CCE0D42149FAEE0041F994 /* DragSortTableWithRealm.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2CCE0CC2149FAEE0041F994 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "高勇鹏";
+				TargetAttributes = {
+					C2CCE0D32149FAEE0041F994 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = C2CCE0CF2149FAEE0041F994 /* Build configuration list for PBXProject "DragSortTableWithRealm" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2CCE0CB2149FAEE0041F994;
+			productRefGroup = C2CCE0D52149FAEE0041F994 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2CCE0D32149FAEE0041F994 /* DragSortTableWithRealm */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2CCE0D22149FAEE0041F994 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CCE0E42149FAF00041F994 /* LaunchScreen.storyboard in Resources */,
+				C2CCE0E12149FAF00041F994 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD4E4052CA8135E126BE6A20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DragSortTableWithRealm-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2CCE0D02149FAEE0041F994 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2CCE0DC2149FAEE0041F994 /* ViewController.m in Sources */,
+				C2CCE0FC2149FF620041F994 /* DragSortCell.m in Sources */,
+				C2CCE0F42149FD280041F994 /* FMMoveTableView.m in Sources */,
+				C2CCE0F92149FEE00041F994 /* ModOrder.m in Sources */,
+				C2CCE0F52149FD280041F994 /* FMMoveTableViewCell.m in Sources */,
+				C2CCE0E72149FAF00041F994 /* main.m in Sources */,
+				C2CCE0D92149FAEE0041F994 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C2CCE0E22149FAF00041F994 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C2CCE0E32149FAF00041F994 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C2CCE0E82149FAF00041F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2CCE0E92149FAF00041F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2CCE0EB2149FAF00041F994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 485F1B31F8D2D858C2632695 /* Pods-DragSortTableWithRealm.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				INFOPLIST_FILE = DragSortTableWithRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyp.DragSortTableWithRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2CCE0EC2149FAF00041F994 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F36A3427BAF4A98BB155A72 /* Pods-DragSortTableWithRealm.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				INFOPLIST_FILE = DragSortTableWithRealm/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = gaoyp.DragSortTableWithRealm;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2CCE0CF2149FAEE0041F994 /* Build configuration list for PBXProject "DragSortTableWithRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CCE0E82149FAF00041F994 /* Debug */,
+				C2CCE0E92149FAF00041F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2CCE0EA2149FAF00041F994 /* Build configuration list for PBXNativeTarget "DragSortTableWithRealm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2CCE0EB2149FAF00041F994 /* Debug */,
+				C2CCE0EC2149FAF00041F994 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2CCE0CC2149FAEE0041F994 /* Project object */;
+}
