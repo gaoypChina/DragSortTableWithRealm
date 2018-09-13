@@ -366,8 +366,8 @@
 			baseConfigurationReference = 485F1B31F8D2D858C2632695 /* Pods-DragSortTableWithRealm.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DragSortTableWithRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -375,6 +375,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gaoyp.DragSortTableWithRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -384,8 +385,8 @@
 			baseConfigurationReference = 7F36A3427BAF4A98BB155A72 /* Pods-DragSortTableWithRealm.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CR5YFAXCM3;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DragSortTableWithRealm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -393,6 +394,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = gaoyp.DragSortTableWithRealm;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
